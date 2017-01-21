@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HelloUltraTelegram1Application {
+public class HelloUltraTelegramApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HelloUltraTelegram1Application.class, args);
+		SpringApplication.run(HelloUltraTelegramApplication.class, args);
 	}
 }
