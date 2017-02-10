@@ -13,14 +13,15 @@ public class HelloUltraTelegramApplication {
 		SpringApplication.run(HelloUltraTelegramApplication.class, args);
 		
 		
-		ApiContextInitializer.init();
-
-        TelegramBotsApi botsApi = new TelegramBotsApi();
-
-        try {
-            botsApi.registerBot(new MyBot());
-        } catch (TelegramApiException e) {
-            e.printStackTrace();
-        }
+		//텔레그렘 초기화.
+//		ApiContextInitializer.init();
+//
+//        TelegramBotsApi botsApi = new TelegramBotsApi();
+//
+//        try {
+//            botsApi.registerBot(new MyBot());
+//        } catch (TelegramApiException e) {
+//            e.printStackTrace();
+//        }
 	}
 }
