@@ -1,6 +1,12 @@
 package com.ultra.messenger;
 
-public interface Messenger {
+import com.ultra.base.request.Request;
+import com.ultra.base.response.Response;
 
-	Object sendMessage();
+/**
+ * Created by YG-MAC on 2017. 2. 12..
+ */
+public interface Messenger<T, K> {
+    Request receive(T request);
+    K transmit(Response response);
 }
